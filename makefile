@@ -6,6 +6,3 @@ README.md: guessinggame.sh
   echo "Date: "+%m-%d-%Y %H:%M:%S"" >> README.md
   echo "The number of lines of code contained in guessinggame.sh is:" >> README.md 
   cat guessinggame.sh | wc -l >> README.md
-
-clean:
-  rm README.md
